@@ -1,5 +1,7 @@
 # Ziglings
 
+> **Using stable Zig v0.13.0**
+
 Welcome to Ziglings! This project contains a series of tiny
 broken programs (and one nasty surprise).  By fixing them, you'll
 learn how to read and write [Zig](https://ziglang.org/) code.
@@ -46,7 +48,7 @@ Verify the installation and build number of `zig` like so:
 
 ```
 $ zig version
-0.13.0-dev.xxxx+xxxxxxxxx
+0.13.0
 ```
 
 Clone this repository with Git:

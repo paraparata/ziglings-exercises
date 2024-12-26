@@ -19,18 +19,23 @@
 const std = @import("std");
 
 pub fn main() void {
+    // var i = -4;
+    // while (i < 5) : (i += 1) {
+    //     std.debug.print("{}\n", .{"*" ** (5 - @abs(i))});
+    // }
+
     const le = [_]u8{ 1, 3 };
     const et = [_]u8{ 3, 7 };
 
     // (Problem 1)
     // Please set this array concatenating the two arrays above.
     // It should result in: 1 3 3 7
-    const leet = ???;
+    const leet = le ++ et;
 
     // (Problem 2)
     // Please set this array using repetition.
     // It should result in: 1 0 0 1 1 0 0 1 1 0 0 1
-    const bit_pattern = [_]u8{ ??? } ** 3;
+    const bit_pattern = [_]u8{ 1, 0, 0, 1 } ** 3;
 
     // Okay, that's all of the problems. Let's see the results.
     //
